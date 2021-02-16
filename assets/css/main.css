@@ -1618,7 +1618,7 @@ article:last-child {
 .image.avatar48 {
     width: 48px;
     height: 48px;
-    background: #f00;
+    background: #212528;
 }
 
 .image.avatar48 img {
@@ -2150,7 +2150,7 @@ button:active,
 
 /* Wide */
 
-@media screen and (min-width: 961px) and (max-width: 1920px) {
+@media screen and (min-width: 1272px) and (max-width: 1920px) {
     /* Basic */
     body,
     input,
@@ -2171,7 +2171,7 @@ button:active,
         margin-left: 300px;
     }
     #main section.cover {
-        animation: details 20s infinite;
+        animation: details 55s infinite;
     }
 }
 
@@ -2242,6 +2242,12 @@ button:active,
     h2.alt {
         font-size: 30px;
     }
+    .mapa-local {
+        width: 650px;
+        height: 500px;
+        border: 0;
+        margin-top: 10px;
+    }
 }
 
 
@@ -2256,6 +2262,12 @@ button:active,
     html,
     body {
         overflow-x: hidden;
+    }
+    .mapa-local {
+        width: 600px;
+        height: 500px;
+        border: 0;
+        margin-top: 10px;
     }
     body,
     input,
@@ -2432,6 +2444,12 @@ button:active,
     textarea,
     select {
         font-size: 14pt;
+    }
+    .mapa-local {
+        width: 300px;
+        height: 500px;
+        border: 0;
+        margin-top: 10px;
     }
     h2 {
         font-size: 1.5em;
